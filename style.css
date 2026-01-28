@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0b1c3d, #020814);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 24px 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 16px;
+}
+
+input {
+  flex: 1;
+  padding: 14px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: none;
+}
+
+button {
+  padding: 14px 18px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: none;
+  background: #1f5cff;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.game-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.teams {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.result {
+  opacity: 0.8;
+  margin-top: 8px;
+}
+
+.points {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0 16px 40px;
+}
+
+li {
+  background: rgba(255,255,255,0.1);
+  margin: 6px 0;
+  padding: 12px;
+  border-radius: 12px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Champions League Tippspiel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🏆 Champions League Tippspiel</h1>
+  <p>Tippen • Mitfiebern • Punkten</p>
+</header>
+
+<section class="login">
+  <input id="username" placeholder="Dein Name">
+  <button onclick="login()">Start</button>
+</section>
+
+<main id="app" class="hidden">
+  <h2>Heutige Spiele</h2>
+  <div id="games" class="games"></div>
+
+  <h2>🏅 Rangliste</h2>
+  <ul id="leaderboard"></ul>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
