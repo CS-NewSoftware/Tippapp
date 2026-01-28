@@ -1,9 +1,24 @@
 let currentUser = null;
 
 const games = [
-  { id: 1, home: "Real Madrid", away: "Manchester City", result: "2:1" },
-  { id: 2, home: "Bayern München", away: "Arsenal", result: "1:1" },
-  { id: 3, home: "PSG", away: "Barcelona", result: "0:2" }
+  { id: 1, home: "Ajax", away: "Olympiacos", result: "" },
+  { id: 2, home: "Arsenal", away: "Kairat Almaty", result: "" },
+  { id: 3, home: "Monaco", away: "Juventus", result: "" },
+  { id: 4, home: "Athletic Club", away: "Sporting CP", result: "" },
+  { id: 5, home: "Atlético Madrid", away: "Bodø/Glimt", result: "" },
+  { id: 6, home: "Leverkusen", away: "Villarreal", result: "" },
+  { id: 7, home: "Borussia Dortmund", away: "Inter", result: "" },
+  { id: 8, home: "Club Brugge", away: "Marseille", result: "" },
+  { id: 9, home: "Frankfurt", away: "Tottenham Hotspur", result: "" },
+  { id: 10, home: "Barcelona", away: "Copenhagen", result: "" },
+  { id: 11, home: "Liverpool", away: "Qarabağ", result: "" },
+  { id: 12, home: "Manchester City", away: "Galatasaray", result: "" },
+  { id: 13, home: "Pafos", away: "Slavia Praha", result: "" },
+  { id: 14, home: "Paris Saint-Germain", away: "Newcastle United", result: "" },
+  { id: 15, home: "PSV Eindhoven", away: "Bayern München", result: "" },
+  { id: 16, home: "Union Saint‑Gilloise", away: "Atalanta", result: "" },
+  { id: 17, home: "Benfica", away: "Real Madrid", result: "" },
+  { id: 18, home: "Napoli", away: "Chelsea", result: "" }
 ];
 
 function login() {
